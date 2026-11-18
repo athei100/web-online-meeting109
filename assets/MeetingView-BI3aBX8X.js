@@ -492,7 +492,7 @@ const J = {
                 if (_0x4bca9c && '[object\x20Object]' !== _0x4bca9c[_0x26bcd1(0x1c9)]()) throw _0x26bcd1(0x13c);
             })(_0x3d21a8), _0x3d21a8 && ((_0x298475, _0x58af37) => {
                 const _0x311958 = _0x14bdc6;
-                if ((_0x2eed67 => !_0x2eed67['list'] ? .['length'] || !_0x2eed67['watchVariable'])(_0x298475)) return !0x1;
+                if ((_0x2eed67 => !_0x2eed67['list']?.['length'] || !_0x2eed67['watchVariable'])(_0x298475)) return !0x1;
                 ((_0x4d5567, _0x978614) => {
                     const _0x395774 = a1_0x29d2;
                     if (!Array[_0x395774(0x12a)](_0x4d5567)) throw _0x395774(0x18b);
