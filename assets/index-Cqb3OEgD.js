@@ -9978,7 +9978,7 @@ function I(_0x139fc0, _0x23205b = [], _0x568107 = [], _0x5dc875 = '', _0x1fb4ba 
     };
     return _0x139fc0['forEach']((_0x1921af, _0xac40e5) => {
         var _0x2ad4aa = a5_0x2062;
-        if ('' !== _0x1921af['path'] && _0x1921af[_0x2ad4aa(0x5de)] ? .[_0x2ad4aa(0x604)]('?')) {
+        if ('' !== _0x1921af['path'] && _0x1921af[_0x2ad4aa(0x5de)]?.[_0x2ad4aa(0x604)]('?')) {
             for (let _0x35b34c of V(_0x1921af['path'])) _0x22b91b(_0x1921af, _0xac40e5, !0x0, _0x35b34c);
         } else _0x22b91b(_0x1921af, _0xac40e5);
     }), _0x23205b;
@@ -10224,7 +10224,7 @@ function we(_0x352d8c, _0x1f5583, _0x5f33ce, _0x416158, _0x13e97d) {
     let _0x55d4e5, _0xb4a5c0 = ge();
     if (_0x1f5583) {
         let _0x47e874 = _0x4f88af(0x635) == typeof _0x1f5583 ? B(_0x1f5583) : _0x1f5583;
-        D('/' === _0x379acc || _0x47e874[_0x4f88af(0x4f0)] ? .[_0x4f88af(0x1e6)](_0x379acc), _0x4f88af(0x171) + _0x379acc + '\x22\x20but\x20pathname\x20\x22' + _0x47e874[_0x4f88af(0x4f0)] + '\x22\x20was\x20given\x20in\x20the\x20`location`\x20prop.'), _0x55d4e5 = _0x47e874;
+        D('/' === _0x379acc || _0x47e874[_0x4f88af(0x4f0)]?.[_0x4f88af(0x1e6)](_0x379acc), _0x4f88af(0x171) + _0x379acc + '\x22\x20but\x20pathname\x20\x22' + _0x47e874[_0x4f88af(0x4f0)] + '\x22\x20was\x20given\x20in\x20the\x20`location`\x20prop.'), _0x55d4e5 = _0x47e874;
     } else _0x55d4e5 = _0xb4a5c0;
     let _0x3ec981 = _0x55d4e5[_0x4f88af(0x4f0)] || '/',
         _0x2c534f = _0x3ec981;
@@ -10247,9 +10247,9 @@ function we(_0x352d8c, _0x1f5583, _0x5f33ce, _0x416158, _0x13e97d) {
             }
         }
         let _0x374285 = _0x2bc974,
-            _0x296f74 = _0x49c7dc ? .[_0x3c1c25(0x1b7)];
+            _0x296f74 = _0x49c7dc?.[_0x3c1c25(0x1b7)];
         if (null != _0x296f74) {
-            let _0x5a34f4 = _0x374285['findIndex'](_0x3da6b8 => _0x3da6b8['route']['id'] && void 0x0 !== _0x296f74 ? .[_0x3da6b8['route']['id']]);
+            let _0x5a34f4 = _0x374285['findIndex'](_0x3da6b8 => _0x3da6b8['route']['id'] && void 0x0 !== _0x296f74?.[_0x3da6b8['route']['id']]);
             D(_0x5a34f4 >= 0x0, 'Could\x20not\x20find\x20a\x20matching\x20route\x20for\x20errors\x20on\x20route\x20IDs:\x20' + Object['keys'](_0x296f74)['join'](',')), _0x374285 = _0x374285[_0x3c1c25(0x58a)](0x0, Math[_0x3c1c25(0x233)](_0x374285['length'], _0x5a34f4 + 0x1));
         }
         let _0x3a4311 = !0x1,
@@ -10333,7 +10333,7 @@ function Se() {
                     return D(_0x1b269a, Pe(_0x1d662e(0x4d4))), _0x1b269a;
                 }()),
                 _0x3134e4 = Te(_0x8c0d13(0x4d4));
-            return void 0x0 !== _0x31a582 ? _0x31a582 : _0x27781b['errors'] ? .[_0x3134e4];
+            return void 0x0 !== _0x31a582 ? _0x31a582 : _0x27781b['errors']?.[_0x3134e4];
         }()),
         _0x16b082 = function(_0x1f1dc6) {
             var _0x160376 = a5_0x2062;
@@ -10565,7 +10565,7 @@ function Ve(_0x3bc431) {
 function je(_0xf08446, _0x7089a3, _0x6da8db, _0x5efd09, _0x30273a, _0x475a19) {
     var _0x4f45d = a5_0x42995e;
     let _0x15974e = (_0x2d4f8a, _0x53198c) => !_0x6da8db[_0x53198c] || _0x2d4f8a['route']['id'] !== _0x6da8db[_0x53198c]['route']['id'],
-        _0x26c96e = (_0x4146df, _0x5c1b0c) => _0x6da8db[_0x5c1b0c]['pathname'] !== _0x4146df['pathname'] || _0x6da8db[_0x5c1b0c]['route']['path'] ? .['endsWith']('*') && _0x6da8db[_0x5c1b0c]['params']['*'] !== _0x4146df[_0x4f45d(0x6a2)]['*'];
+        _0x26c96e = (_0x4146df, _0x5c1b0c) => _0x6da8db[_0x5c1b0c]['pathname'] !== _0x4146df['pathname'] || _0x6da8db[_0x5c1b0c]['route']['path']?.['endsWith']('*') && _0x6da8db[_0x5c1b0c]['params']['*'] !== _0x4146df[_0x4f45d(0x6a2)]['*'];
     return _0x4f45d(0x36d) === _0x475a19 ? _0x7089a3[_0x4f45d(0x6aa)]((_0xe27305, _0x4b4f00) => _0x15974e(_0xe27305, _0x4b4f00) || _0x26c96e(_0xe27305, _0x4b4f00)) : 'data' === _0x475a19 ? _0x7089a3['filter']((_0x4098c2, _0x2b0208) => {
         var _0x3d01a4 = _0x4f45d;
         let _0x490ca7 = _0x5efd09[_0x3d01a4(0x598)][_0x4098c2[_0x3d01a4(0x123)]['id']];
@@ -10574,7 +10574,7 @@ function je(_0xf08446, _0x7089a3, _0x6da8db, _0x5efd09, _0x30273a, _0x475a19) {
         if (_0x4098c2['route']['shouldRevalidate']) {
             let _0x30ca95 = _0x4098c2[_0x3d01a4(0x123)]['shouldRevalidate']({
                 'currentUrl': new URL(_0x30273a['pathname'] + _0x30273a[_0x3d01a4(0x476)] + _0x30273a[_0x3d01a4(0x446)], window['origin']),
-                'currentParams': _0x6da8db[0x0] ? .['params'] || {},
+                'currentParams': _0x6da8db[0x0]?.['params'] || {},
                 'nextUrl': new URL(_0xf08446, window[_0x3d01a4(0x1bf)]),
                 'nextParams': _0x4098c2['params'],
                 'defaultShouldRevalidate': !0x0
@@ -10652,7 +10652,7 @@ function qe({
             if (_0xdd50e0['forEach'](_0x36d135 => {
                     var _0x280802 = a5_0x2062;
                     let _0x2c3de5 = _0x43349e['routes'][_0x36d135['route']['id']];
-                    _0x2c3de5 && _0x2c3de5[_0x280802(0x488)] && (!_0x3fff8c[_0x280802(0x652)](_0x4610e3 => _0x4610e3['route']['id'] === _0x36d135['route']['id']) && _0x36d135[_0x280802(0x123)]['id'] in _0x34a72d && _0x931ad5[_0x36d135['route']['id']] ? .[_0x280802(0x1f3)] || _0x2c3de5[_0x280802(0x5a6)] ? _0x58e898 = !0x0 : _0x186cd7['add'](_0x36d135['route']['id']));
+                    _0x2c3de5 && _0x2c3de5[_0x280802(0x488)] && (!_0x3fff8c[_0x280802(0x652)](_0x4610e3 => _0x4610e3['route']['id'] === _0x36d135['route']['id']) && _0x36d135[_0x280802(0x123)]['id'] in _0x34a72d && _0x931ad5[_0x36d135['route']['id']]?.[_0x280802(0x1f3)] || _0x2c3de5[_0x280802(0x5a6)] ? _0x58e898 = !0x0 : _0x186cd7['add'](_0x36d135['route']['id']));
                 }), 0x0 === _0x186cd7['size']) return [];
             let _0x83345d = function(_0x49397d, _0x2bf937, _0xabf780) {
                 var _0x589c0c = a5_0x2062;
@@ -11326,7 +11326,7 @@ Ze['displayName'] = 'Link', p[a5_0x42995e(0x396)](function({
             if (_0x1aec10 && _0x1aec10(_0x3be597), _0x3be597[_0x524c68(0x3c2)]) return;
             _0x3be597['preventDefault']();
             let _0x2157d3 = _0x3be597['nativeEvent'][_0x524c68(0x673)],
-                _0x1089a0 = _0x2157d3 ? .[_0x524c68(0x3f4)]('formmethod') || _0x40ba48;
+                _0x1089a0 = _0x2157d3?.[_0x524c68(0x3f4)]('formmethod') || _0x40ba48;
             _0x1f685c(_0x2157d3 || _0x3be597['currentTarget'], {
                 'fetcherKey': _0x2de2e2,
                 'method': _0x1089a0,
@@ -11703,7 +11703,7 @@ const An = _0x3677e0 => 'number' == typeof _0x3677e0 ? 0x0 : wn[a5_0x42995e(0x22
     _n = {
         'test': function(_0x2aea6c) {
             var _0x530d51 = a5_0x42995e;
-            return isNaN(_0x2aea6c) && 'string' == typeof _0x2aea6c && (_0x2aea6c[_0x530d51(0x66a)](an) ? .['length'] || 0x0) + (_0x2aea6c['match'](Sn) ? .['length'] || 0x0) > 0x0;
+            return isNaN(_0x2aea6c) && 'string' == typeof _0x2aea6c && (_0x2aea6c[_0x530d51(0x66a)](an)?.['length'] || 0x0) + (_0x2aea6c['match'](Sn)?.['length'] || 0x0) > 0x0;
         },
         'parse': Tn,
         'createTransformer': Cn,
@@ -12215,7 +12215,7 @@ class lr extends or {
             const {
                 motionValue: _0x1d0866
             } = this['options'];
-            _0x1d0866 && _0x1d0866['updatedAt'] !== Gt['now']() && this[_0x231677(0x207)](Gt['now']()), this[_0x231677(0x65a)] = !0x0, 'idle' !== this['state'] && (this[_0x231677(0x62e)](), this[_0x231677(0x214)][_0x231677(0x5b2)] ? .());
+            _0x1d0866 && _0x1d0866['updatedAt'] !== Gt['now']() && this[_0x231677(0x207)](Gt['now']()), this[_0x231677(0x65a)] = !0x0, 'idle' !== this['state'] && (this[_0x231677(0x62e)](), this[_0x231677(0x214)][_0x231677(0x5b2)]?.());
         }, this['options'] = _0x48a0e5, this['initAnimation'](), this['play'](), !0x1 === _0x48a0e5['autoplay'] && this[_0x516e49(0x4eb)]();
     }['initAnimation']() {
         var _0x468742 = a5_0x42995e;
@@ -12315,7 +12315,7 @@ class lr extends or {
     }
     set['time'](_0x3aacb6) {
         var _0x2dacd8 = a5_0x42995e;
-        _0x3aacb6 = wt(_0x3aacb6), this['currentTime'] = _0x3aacb6, null === this[_0x2dacd8(0x543)] || null !== this['holdTime'] || 0x0 === this[_0x2dacd8(0x202)] ? this['holdTime'] = _0x3aacb6 : this[_0x2dacd8(0x1e7)] && (this['startTime'] = this['driver'][_0x2dacd8(0x2fd)]() - _0x3aacb6 / this[_0x2dacd8(0x202)]), this['driver'] ? .['start'](!0x1);
+        _0x3aacb6 = wt(_0x3aacb6), this['currentTime'] = _0x3aacb6, null === this[_0x2dacd8(0x543)] || null !== this['holdTime'] || 0x0 === this[_0x2dacd8(0x202)] ? this['holdTime'] = _0x3aacb6 : this[_0x2dacd8(0x1e7)] && (this['startTime'] = this['driver'][_0x2dacd8(0x2fd)]() - _0x3aacb6 / this[_0x2dacd8(0x202)]), this['driver']?.['start'](!0x1);
     }
     get[a5_0x42995e(0x10f)]() {
         var _0x31f7a0 = a5_0x42995e;
@@ -12333,7 +12333,7 @@ class lr extends or {
             driver: _0x2685bf = Wn,
             startTime: _0x45c08c
         } = this[_0x7151cb(0x214)];
-        this['driver'] || (this['driver'] = _0x2685bf(_0x4db3ec => this['tick'](_0x4db3ec))), this['options']['onPlay'] ? .();
+        this['driver'] || (this['driver'] = _0x2685bf(_0x4db3ec => this['tick'](_0x4db3ec))), this['options']['onPlay']?.();
         const _0x4531fe = this['driver']['now']();
         'finished' === this['state'] ? (this[_0x7151cb(0x2bb)](), this[_0x7151cb(0x543)] = _0x4531fe) : null !== this['holdTime'] ? this[_0x7151cb(0x543)] = _0x4531fe - this[_0x7151cb(0x12d)] : this['startTime'] || (this['startTime'] = _0x45c08c ? ? _0x4531fe), _0x7151cb(0x528) === this['state'] && this[_0x7151cb(0x10f)] < 0x0 && (this[_0x7151cb(0x543)] += this['calculatedDuration']), this['holdTime'] = null, this['state'] = 'running', this[_0x7151cb(0x1e7)][_0x7151cb(0x3fa)]();
     }['pause']() {
@@ -12344,10 +12344,10 @@ class lr extends or {
         'running' !== this['state'] && this[_0x2470bc(0x495)](), this['state'] = _0x2470bc(0x528), this[_0x2470bc(0x12d)] = null;
     }[a5_0x42995e(0x4a4)]() {
         var _0x8e8ae0 = a5_0x42995e;
-        this['notifyFinished'](), this['teardown'](), this[_0x8e8ae0(0x48e)] = _0x8e8ae0(0x528), this[_0x8e8ae0(0x214)]['onComplete'] ? .();
+        this['notifyFinished'](), this['teardown'](), this[_0x8e8ae0(0x48e)] = _0x8e8ae0(0x528), this[_0x8e8ae0(0x214)]['onComplete']?.();
     }[a5_0x42995e(0x5ff)]() {
         var _0x26965e = a5_0x42995e;
-        this[_0x26965e(0x12d)] = null, this['startTime'] = 0x0, this[_0x26965e(0x207)](0x0), this['teardown'](), this[_0x26965e(0x214)]['onCancel'] ? .();
+        this[_0x26965e(0x12d)] = null, this['startTime'] = 0x0, this[_0x26965e(0x207)](0x0), this['teardown'](), this[_0x26965e(0x214)]['onCancel']?.();
     }['teardown']() {
         this['state'] = 'idle', this['stopDriver'](), this['startTime'] = this['holdTime'] = null;
     }[a5_0x42995e(0x28e)]() {
@@ -12357,7 +12357,7 @@ class lr extends or {
         var _0x579737 = a5_0x42995e;
         return this[_0x579737(0x543)] = 0x0, this[_0x579737(0x207)](_0xb1cc14, !0x0);
     }[a5_0x42995e(0x35c)](_0x1475ad) {
-        return this['options']['allowFlatten'] && (this['options']['type'] = 'keyframes', this['options']['ease'] = 'linear', this['initAnimation']()), this['driver'] ? .['stop'](), _0x1475ad['observe'](this);
+        return this['options']['allowFlatten'] && (this['options']['type'] = 'keyframes', this['options']['ease'] = 'linear', this['initAnimation']()), this['driver']?.['stop'](), _0x1475ad['observe'](this);
     }
 }
 const ur = _0x5ef2d9 => 0xb4 * _0x5ef2d9 / Math['PI'],
@@ -12497,7 +12497,7 @@ function _r() {
             const _0x518ac3 = _0x1ba18f[_0x1f5540(0x1ee)](_0x18fa6a);
             _0x518ac3 && _0x518ac3[_0x1f5540(0x3be)](([_0x2c9a73, _0x4c218c]) => {
                 var _0x475c99 = _0x1f5540;
-                _0x18fa6a['getValue'](_0x2c9a73) ? .[_0x475c99(0x20a)](_0x4c218c);
+                _0x18fa6a['getValue'](_0x2c9a73)?.[_0x475c99(0x20a)](_0x4c218c);
             });
         }), _0x1fff5b['forEach'](_0x2bc6b7 => _0x2bc6b7['measureEndState']()), _0x1fff5b['forEach'](_0x4d3c2d => {
             var _0x309d98 = _0x348d21;
@@ -12537,7 +12537,7 @@ class Rr {
             motionValue: _0x2fd3e8
         } = this;
         if (null === _0x3f15a2[0x0]) {
-            const _0x41abe3 = _0x2fd3e8 ? .['get'](),
+            const _0x41abe3 = _0x2fd3e8?.['get'](),
                 _0x38e130 = _0x3f15a2[_0x3f15a2['length'] - 0x1];
             if (void 0x0 !== _0x41abe3) _0x3f15a2[0x0] = _0x41abe3;
             else {
@@ -12659,7 +12659,7 @@ class jr extends or {
                     (_0x38a375 => _0x38a375['startsWith']('--'))(_0x144dbd) ? _0x186bfe[_0x386581(0x13c)]['setProperty'](_0x144dbd, _0x264380): _0x186bfe[_0x386581(0x13c)][_0x144dbd] = _0x264380;
                 }(_0x230ba2, _0x2c3dc2, _0x9702fe), this[_0x213dbd(0x29d)]['cancel']();
             }
-            _0x1dfb8e ? .(), this['notifyFinished']();
+            _0x1dfb8e?.(), this['notifyFinished']();
         };
     }['play']() {
         var _0x4b789b = a5_0x42995e;
@@ -12669,7 +12669,7 @@ class jr extends or {
         this[_0x2fe969(0x29d)][_0x2fe969(0x4eb)]();
     }[a5_0x42995e(0x3e7)]() {
         var _0x25b046 = a5_0x42995e;
-        this[_0x25b046(0x29d)][_0x25b046(0x4a4)] ? .();
+        this[_0x25b046(0x29d)][_0x25b046(0x4a4)]?.();
     }[a5_0x42995e(0x5ff)]() {
         var _0x5ab776 = a5_0x42995e;
         try {
@@ -12685,11 +12685,11 @@ class jr extends or {
         'idle' !== _0x37b902 && 'finished' !== _0x37b902 && (this['updateMotionValue'] ? this[_0x323cba(0x1e1)]() : this['commitStyles'](), this['isPseudoElement'] || this[_0x323cba(0x5ff)]());
     }['commitStyles']() {
         var _0xcede36 = a5_0x42995e;
-        this['isPseudoElement'] || this[_0xcede36(0x29d)]['commitStyles'] ? .();
+        this['isPseudoElement'] || this[_0xcede36(0x29d)]['commitStyles']?.();
     }
     get['duration']() {
         var _0x5769ed = a5_0x42995e;
-        const _0x157c4a = this['animation']['effect'] ? .['getComputedTiming'] ? .()[_0x5769ed(0x5bc)] || 0x0;
+        const _0x157c4a = this['animation']['effect']?.['getComputedTiming']?.()[_0x5769ed(0x5bc)] || 0x0;
         return St(Number(_0x157c4a));
     }
     get['iterationDuration']() {
@@ -12730,7 +12730,7 @@ class jr extends or {
         observe: _0x41eb99
     }) {
         var _0x195622 = a5_0x42995e;
-        return this['allowFlatten'] && this[_0x195622(0x29d)]['effect'] ? .[_0x195622(0x108)]({
+        return this['allowFlatten'] && this[_0x195622(0x29d)]['effect']?.[_0x195622(0x108)]({
             'easing': 'linear'
         }), this['animation']['onfinish'] = null, _0x16531b && Dr() ? (this['animation']['timeline'] = _0x16531b, mt) : _0x41eb99(this);
     }
@@ -12789,7 +12789,7 @@ class Gr extends or {
         var _0x4de93f = a5_0x42995e;
         super(), this[_0x4de93f(0x484)] = () => {
             var _0x35df88 = _0x4de93f;
-            this['_animation'] && (this[_0x35df88(0x2ca)]['stop'](), this[_0x35df88(0x53d)] ? .()), this['keyframeResolver'] ? .[_0x35df88(0x5ff)]();
+            this['_animation'] && (this[_0x35df88(0x2ca)]['stop'](), this[_0x35df88(0x53d)]?.()), this['keyframeResolver']?.[_0x35df88(0x5ff)]();
         }, this['createdAt'] = Gt[_0x4de93f(0x2fd)]();
         const _0x1c2978 = {
                 'autoplay': _0x34f5c5,
@@ -12803,8 +12803,8 @@ class Gr extends or {
                 'element': _0x2b7dfd,
                 ..._0x1978cf
             },
-            _0x471fd2 = _0x2b7dfd ? .[_0x4de93f(0x688)] || Rr;
-        this[_0x4de93f(0x104)] = new _0x471fd2(_0x4b9408, (_0x4d1f53, _0x5ef26b, _0x34e637) => this['onKeyframesResolved'](_0x4d1f53, _0x5ef26b, _0x1c2978, !_0x34e637), _0x288a5d, _0x185fac, _0x2b7dfd), this[_0x4de93f(0x104)] ? .['scheduleResolve']();
+            _0x471fd2 = _0x2b7dfd?.[_0x4de93f(0x688)] || Rr;
+        this[_0x4de93f(0x104)] = new _0x471fd2(_0x4b9408, (_0x4d1f53, _0x5ef26b, _0x34e637) => this['onKeyframesResolved'](_0x4d1f53, _0x5ef26b, _0x1c2978, !_0x34e637), _0x288a5d, _0x185fac, _0x2b7dfd), this[_0x4de93f(0x104)]?.['scheduleResolve']();
     }['onKeyframesResolved'](_0x532bd2, _0x3d69ee, _0x4581e1, _0x1ed51f) {
         var _0x339607 = a5_0x42995e;
         this[_0x339607(0x104)] = void 0x0;
@@ -12832,7 +12832,7 @@ class Gr extends or {
                     for (let _0x4902a0 = 0x0; _0x4902a0 < _0x152e61[_0x566f6a(0x516)]; _0x4902a0++)
                         if (_0x152e61[_0x4902a0] !== _0x50d51f) return !0x0;
                 }(_0x188815) || (_0x16c18f(0x50f) === _0x3a0f68 || Vr(_0x3a0f68)) && _0x5461fb);
-            }(_0x532bd2, _0x1cd918, _0x549ae8, _0x404db2) || (!ct[_0x339607(0x27d)] && _0x3128d1 || _0x5e377c ? .(rr(_0x532bd2, _0x4581e1, _0x3d69ee)), _0x532bd2[0x0] = _0x532bd2[_0x532bd2['length'] - 0x1], Xr(_0x4581e1), _0x4581e1['repeat'] = 0x0);
+            }(_0x532bd2, _0x1cd918, _0x549ae8, _0x404db2) || (!ct[_0x339607(0x27d)] && _0x3128d1 || _0x5e377c?.(rr(_0x532bd2, _0x4581e1, _0x3d69ee)), _0x532bd2[0x0] = _0x532bd2[_0x532bd2['length'] - 0x1], Xr(_0x4581e1), _0x4581e1['repeat'] = 0x0);
         const _0x4bcac8 = {
                 'startTime': _0x1ed51f ? this[_0x339607(0x48d)] && this[_0x339607(0x48d)] - this[_0x339607(0x4e3)] > 0x28 ? this['resolvedAt'] : this['createdAt'] : void 0x0,
                 'finalKeyframe': _0x3d69ee,
@@ -12848,7 +12848,7 @@ class Gr extends or {
                     repeatType: _0x27aa4f,
                     damping: _0x55c75a,
                     type: _0x3455f3
-                } = _0x23ab2e, _0x28768e = _0x17092f ? .['owner'] ? .[_0x230cc3(0x5cf)];
+                } = _0x23ab2e, _0x28768e = _0x17092f?.['owner']?.[_0x230cc3(0x5cf)];
                 if (!(_0x28768e instanceof HTMLElement)) return !0x1;
                 const {
                     onUpdate: _0x2dab62,
@@ -12870,7 +12870,7 @@ class Gr extends or {
     }
     get['animation']() {
         var _0x5ced0e = a5_0x42995e;
-        return this[_0x5ced0e(0x2ca)] || (this['keyframeResolver'] ? .[_0x5ced0e(0x153)](), Ar = !0x0, Mr(), _r(), Ar = !0x1), this[_0x5ced0e(0x2ca)];
+        return this[_0x5ced0e(0x2ca)] || (this['keyframeResolver']?.[_0x5ced0e(0x153)](), Ar = !0x0, Mr(), _r(), Ar = !0x1), this[_0x5ced0e(0x2ca)];
     }
     get[a5_0x42995e(0x5bc)]() {
         var _0x23425a = a5_0x42995e;
@@ -12913,7 +12913,7 @@ class Gr extends or {
         this['animation']['complete']();
     }[a5_0x42995e(0x5ff)]() {
         var _0x98eb3f = a5_0x42995e;
-        this[_0x98eb3f(0x2ca)] && this['animation'][_0x98eb3f(0x5ff)](), this[_0x98eb3f(0x104)] ? .[_0x98eb3f(0x5ff)]();
+        this[_0x98eb3f(0x2ca)] && this['animation'][_0x98eb3f(0x5ff)](), this[_0x98eb3f(0x104)]?.[_0x98eb3f(0x5ff)]();
     }
 }
 const Yr = /^var\(--(?:([\w-]+)|([\w-]+), ?([a-zA-Z\d ()%#.,-]+))\)/u;
@@ -12937,7 +12937,7 @@ function Qr(_0x22aa40, _0x4fec41, _0x31f2ad = 0x1) {
 }
 
 function $r(_0x5c5d7c, _0x133f83) {
-    return _0x5c5d7c ? .[_0x133f83] ? ? _0x5c5d7c ? .['default'] ? ? _0x5c5d7c;
+    return _0x5c5d7c?.[_0x133f83] ? ? _0x5c5d7c?.['default'] ? ? _0x5c5d7c;
 }
 const Zr = new Set(['width', 'height', 'top', a5_0x42995e(0x493), 'right', a5_0x42995e(0x1f1), ...br]),
     Jr = _0x5c6f66 => _0x5b6661 => _0x5b6661[a5_0x42995e(0x22f)](_0x5c6f66),
@@ -13127,7 +13127,7 @@ class hi extends Rr {
         _0x3023e0 && _0x3023e0[_0x133be7(0x169)](this[_0x133be7(0x195)], !0x1);
         const _0x30cf4b = _0x13a4d8['length'] - 0x1,
             _0x456379 = _0x13a4d8[_0x30cf4b];
-        _0x13a4d8[_0x30cf4b] = Er[_0x5b1057](_0x50b60a['measureViewportBox'](), window[_0x133be7(0x641)](_0x50b60a['current'])), null !== _0x456379 && void 0x0 === this['finalKeyframe'] && (this['finalKeyframe'] = _0x456379), this['removedTransforms'] ? .['length'] && this['removedTransforms']['forEach'](([_0x35fe8f, _0x15c2e9]) => {
+        _0x13a4d8[_0x30cf4b] = Er[_0x5b1057](_0x50b60a['measureViewportBox'](), window[_0x133be7(0x641)](_0x50b60a['current'])), null !== _0x456379 && void 0x0 === this['finalKeyframe'] && (this['finalKeyframe'] = _0x456379), this['removedTransforms']?.['length'] && this['removedTransforms']['forEach'](([_0x35fe8f, _0x15c2e9]) => {
             _0x50b60a['getValue'](_0x35fe8f)['set'](_0x15c2e9);
         }), this[_0x133be7(0x242)]();
     }
@@ -13144,7 +13144,7 @@ class gi {
         this['canTrackVelocity'] = null, this['events'] = {}, this['updateAndNotify'] = _0x22e685 => {
             var _0x4aec06 = a5_0x2062;
             const _0x502d8c = Gt['now']();
-            if (this[_0x4aec06(0x2f7)] !== _0x502d8c && this['setPrevFrameValue'](), this[_0x4aec06(0x638)] = this['current'], this['setCurrent'](_0x22e685), this[_0x4aec06(0x5cf)] !== this[_0x4aec06(0x638)] && (this['events']['change'] ? .['notify'](this['current']), this[_0x4aec06(0x4a3)])) {
+            if (this[_0x4aec06(0x2f7)] !== _0x502d8c && this['setPrevFrameValue'](), this[_0x4aec06(0x638)] = this['current'], this['setCurrent'](_0x22e685), this[_0x4aec06(0x5cf)] !== this[_0x4aec06(0x638)] && (this['events']['change']?.['notify'](this['current']), this[_0x4aec06(0x4a3)])) {
                 for (const _0xbedafb of this['dependents']) _0xbedafb['dirty']();
             }
         }, this[_0x33e155(0x159)] = !0x1, this[_0x33e155(0x235)](_0x560ded), this[_0x33e155(0x422)] = _0x21b7e2['owner'];
@@ -13184,7 +13184,7 @@ class gi {
         var _0x4cb000 = a5_0x42995e;
         this[_0x4cb000(0xdd)](_0x21a1f0), this['prev'] = _0x21a1f0, this['prevUpdatedAt'] = this[_0x4cb000(0x583)] = void 0x0, _0x468b67 && this['stop'](), this['stopPassiveEffect'] && this['stopPassiveEffect']();
     }['dirty']() {
-        this['events']['change'] ? .['notify'](this['current']);
+        this['events']['change']?.['notify'](this['current']);
     }[a5_0x42995e(0x141)](_0x478858) {
         var _0x3cff65 = a5_0x42995e;
         this['dependents'] || (this['dependents'] = new Set()), this['dependents'][_0x3cff65(0xde)](_0x478858);
@@ -13221,7 +13221,7 @@ class gi {
         delete this[_0x2e43ac(0x29d)];
     }['destroy']() {
         var _0x270df0 = a5_0x42995e;
-        this[_0x270df0(0x4a3)] ? .['clear'](), this[_0x270df0(0x46d)][_0x270df0(0x4fa)] ? .['notify'](), this['clearListeners'](), this['stop'](), this['stopPassiveEffect'] && this['stopPassiveEffect']();
+        this[_0x270df0(0x4a3)]?.['clear'](), this[_0x270df0(0x46d)][_0x270df0(0x4fa)]?.['notify'](), this['clearListeners'](), this['stop'](), this['stopPassiveEffect'] && this['stopPassiveEffect']();
     }
 }
 
@@ -13353,7 +13353,7 @@ function Oi({
                     };
                 };
             }(..._0x485a4d), _0x485a4d);
-        }(_0x4215cb, _0x23cd02 ? .[_0x3780cb(0x25f)]);
+        }(_0x4215cb, _0x23cd02?.[_0x3780cb(0x25f)]);
     return p['useInsertionEffect'](() => {
         var _0x2617b6 = _0x3780cb;
         const {
@@ -13508,7 +13508,7 @@ const Hi = ({
                         let _0x3baeaf = !0x0;
                         _0xd0b72d['forEach'](_0x22bc29 => {
                             _0x22bc29 || (_0x3baeaf = !0x1);
-                        }), _0x3baeaf && (_0x39dd4e ? .(), _0x5493b9(_0x11a087['current']), _0x5509ba && _0x1b1f5c ? .(), _0x1be78b && _0x1be78b());
+                        }), _0x3baeaf && (_0x39dd4e?.(), _0x5493b9(_0x11a087['current']), _0x5509ba && _0x1b1f5c?.(), _0x1be78b && _0x1be78b());
                     },
                     'anchorX': _0x49c68f,
                     'children': _0x6010bc
@@ -13686,7 +13686,7 @@ function ha(_0x5dda15, {
         attrs: _0x1ef1dd,
         style: _0x5b1f65
     } = _0x5dda15;
-    _0x1ef1dd[_0x371cf3(0x156)] && (_0x5b1f65['transform'] = _0x1ef1dd['transform'], delete _0x1ef1dd['transform']), (_0x5b1f65['transform'] || _0x1ef1dd['transformOrigin']) && (_0x5b1f65['transformOrigin'] = _0x1ef1dd[_0x371cf3(0x677)] ? ? '50%\x2050%', delete _0x1ef1dd['transformOrigin']), _0x5b1f65['transform'] && (_0x5b1f65[_0x371cf3(0x5b6)] = _0x58befb ? .['transformBox'] ? ? 'fill-box', delete _0x1ef1dd['transformBox']), void 0x0 !== _0x41be71 && (_0x1ef1dd['x'] = _0x41be71), void 0x0 !== _0x26b6ca && (_0x1ef1dd['y'] = _0x26b6ca), void 0x0 !== _0x345be2 && (_0x1ef1dd['scale'] = _0x345be2), void 0x0 !== _0x481cee && function(_0x576e22, _0x38529c, _0x38b21b = 0x1, _0x50991d = 0x0, _0x3728b8 = !0x0) {
+    _0x1ef1dd[_0x371cf3(0x156)] && (_0x5b1f65['transform'] = _0x1ef1dd['transform'], delete _0x1ef1dd['transform']), (_0x5b1f65['transform'] || _0x1ef1dd['transformOrigin']) && (_0x5b1f65['transformOrigin'] = _0x1ef1dd[_0x371cf3(0x677)] ? ? '50%\x2050%', delete _0x1ef1dd['transformOrigin']), _0x5b1f65['transform'] && (_0x5b1f65[_0x371cf3(0x5b6)] = _0x58befb?.['transformBox'] ? ? 'fill-box', delete _0x1ef1dd['transformBox']), void 0x0 !== _0x41be71 && (_0x1ef1dd['x'] = _0x41be71), void 0x0 !== _0x26b6ca && (_0x1ef1dd['y'] = _0x26b6ca), void 0x0 !== _0x345be2 && (_0x1ef1dd['scale'] = _0x345be2), void 0x0 !== _0x481cee && function(_0x576e22, _0x38529c, _0x38b21b = 0x1, _0x50991d = 0x0, _0x3728b8 = !0x0) {
         var _0x5ddba1 = _0x371cf3;
         _0x576e22['pathLength'] = 0x1;
         const _0x4c483b = _0x3728b8 ? da : fa;
@@ -13761,7 +13761,7 @@ function va(_0x5b5035, _0x485555, _0x266e86, {
 function ba(_0x26cd49) {
     var _0x1930bb = a5_0x42995e;
     const _0x150d21 = [{}, {}];
-    return _0x26cd49 ? .['values'][_0x1930bb(0x3be)]((_0xcc11b6, _0x4a163a) => {
+    return _0x26cd49?.['values'][_0x1930bb(0x3be)]((_0xcc11b6, _0x4a163a) => {
         _0x150d21[0x0][_0x4a163a] = _0xcc11b6['get'](), _0x150d21[0x1][_0x4a163a] = _0xcc11b6['getVelocity']();
     }), _0x150d21;
 }
@@ -13838,7 +13838,7 @@ function Ea(_0xa23ab3, _0x1ed597, _0x9002a4) {
     const {
         style: _0x24350f
     } = _0xa23ab3, _0x499829 = {};
-    for (const _0x28c5ec in _0x24350f)(Ri(_0x24350f[_0x28c5ec]) || _0x1ed597[_0x4cb986(0x13c)] && Ri(_0x1ed597['style'][_0x28c5ec]) || aa(_0x28c5ec, _0xa23ab3) || void 0x0 !== _0x9002a4 ? .['getValue'](_0x28c5ec) ? .['liveStyle']) && (_0x499829[_0x28c5ec] = _0x24350f[_0x28c5ec]);
+    for (const _0x28c5ec in _0x24350f)(Ri(_0x24350f[_0x28c5ec]) || _0x1ed597[_0x4cb986(0x13c)] && Ri(_0x1ed597['style'][_0x28c5ec]) || aa(_0x28c5ec, _0xa23ab3) || void 0x0 !== _0x9002a4?.['getValue'](_0x28c5ec)?.['liveStyle']) && (_0x499829[_0x28c5ec] = _0x24350f[_0x28c5ec]);
     return _0x499829;
 }
 const Pa = ka({
@@ -13929,14 +13929,14 @@ function Na(_0x3dc1ab, _0x50dfdb, _0x20866c, _0x118121, _0x2239d9) {
         _0x201d4f && _0x387b99[_0xff7ba7(0x5cf)] && _0x201d4f['update'](_0x20866c, _0x24d763);
     });
     const _0x4402b1 = _0x20866c[Da],
-        _0x4a6b28 = p['useRef'](Boolean(_0x4402b1) && !window['MotionHandoffIsComplete'] ? .(_0x4402b1) && window['MotionHasOptimisedAnimation'] ? .(_0x4402b1));
+        _0x4a6b28 = p['useRef'](Boolean(_0x4402b1) && !window['MotionHandoffIsComplete']?.(_0x4402b1) && window['MotionHasOptimisedAnimation']?.(_0x4402b1));
     return at(() => {
         var _0x5162f5 = _0x4d5179;
         _0x201d4f && (_0x387b99[_0x5162f5(0x5cf)] = !0x0, window['MotionIsMounted'] = !0x0, _0x201d4f[_0x5162f5(0x60b)](), _0x201d4f['scheduleRenderMicrotask'](), _0x4a6b28['current'] && _0x201d4f['animationState'] && _0x201d4f['animationState']['animateChanges']());
     }), p['useEffect'](() => {
         var _0x5f3f94 = _0x4d5179;
         _0x201d4f && (!_0x4a6b28['current'] && _0x201d4f['animationState'] && _0x201d4f[_0x5f3f94(0x1f4)]['animateChanges'](), _0x4a6b28[_0x5f3f94(0x5cf)] && (queueMicrotask(() => {
-            window['MotionHandoffMarkAsComplete'] ? .(_0x4402b1);
+            window['MotionHandoffMarkAsComplete']?.(_0x4402b1);
         }), _0x4a6b28['current'] = !0x1), _0x201d4f['enteringChildren'] = void 0x0);
     }), _0x201d4f;
 }
@@ -14007,7 +14007,7 @@ function Oa(_0x3a33c2, {
                     ..._0x966579
                 };
                 return {
-                    'MeasureLayout': _0x36e031 ? .['isEnabled'](_0x272805) || _0x966579 ? .['isEnabled'](_0x272805) ? _0x3590de[_0x4fc6e6(0x529)] : void 0x0,
+                    'MeasureLayout': _0x36e031?.['isEnabled'](_0x272805) || _0x966579?.['isEnabled'](_0x272805) ? _0x3590de[_0x4fc6e6(0x529)] : void 0x0,
                     'ProjectionNode': _0x3590de['ProjectionNode']
                 };
             }(_0x2e61c3);
@@ -14211,10 +14211,10 @@ class oo {
                     _0x4e3fb4['addEventListener']('change', _0x4cc437), _0x4cc437();
                 } else no['current'] = !0x1;
             }
-        }()), this[_0x4ed4d6(0x182)] = _0x4ed4d6(0x40f) !== this[_0x4ed4d6(0x3c3)] && ('always' === this[_0x4ed4d6(0x3c3)] || no[_0x4ed4d6(0x5cf)]), this['parent'] ? .['addChild'](this), this['update'](this[_0x4ed4d6(0x597)], this[_0x4ed4d6(0x47c)]);
+        }()), this[_0x4ed4d6(0x182)] = _0x4ed4d6(0x40f) !== this[_0x4ed4d6(0x3c3)] && ('always' === this[_0x4ed4d6(0x3c3)] || no[_0x4ed4d6(0x5cf)]), this['parent']?.['addChild'](this), this['update'](this[_0x4ed4d6(0x597)], this[_0x4ed4d6(0x47c)]);
     }['unmount']() {
         var _0xf0aa67 = a5_0x42995e;
-        this['projection'] && this['projection']['unmount'](), Ut(this[_0xf0aa67(0x521)]), Ut(this['render']), this[_0xf0aa67(0x175)][_0xf0aa67(0x3be)](_0x25293d => _0x25293d()), this['valueSubscriptions']['clear'](), this['removeFromVariantTree'] && this[_0xf0aa67(0x669)](), this['parent'] ? .[_0xf0aa67(0x534)](this);
+        this['projection'] && this['projection']['unmount'](), Ut(this[_0xf0aa67(0x521)]), Ut(this['render']), this[_0xf0aa67(0x175)][_0xf0aa67(0x3be)](_0x25293d => _0x25293d()), this['valueSubscriptions']['clear'](), this['removeFromVariantTree'] && this[_0xf0aa67(0x669)](), this['parent']?.[_0xf0aa67(0x534)](this);
         for (const _0x45e6e3 in this[_0xf0aa67(0x46d)]) this['events'][_0x45e6e3]['clear']();
         for (const _0x495b6f in this[_0xf0aa67(0x106)]) {
             const _0xbe7662 = this['features'][_0x495b6f];
@@ -14363,7 +14363,7 @@ class oo {
         } = this['props'];
         let _0x45c33a;
         if (_0x556d6b(0x635) == typeof _0x12f84a || 'object' == typeof _0x12f84a) {
-            const _0xf5be20 = wa(this['props'], _0x12f84a, this[_0x556d6b(0x47c)] ? .[_0x556d6b(0x127)]);
+            const _0xf5be20 = wa(this['props'], _0x12f84a, this[_0x556d6b(0x47c)]?.[_0x556d6b(0x127)]);
             _0xf5be20 && (_0x45c33a = _0xf5be20[_0x1e05d3]);
         }
         if (_0x12f84a && void 0x0 !== _0x45c33a) return _0x45c33a;
@@ -14411,7 +14411,7 @@ function lo(_0x476003, {
     const _0x4f867c = _0x476003['style'];
     let _0x572540;
     for (_0x572540 in _0x46d090) _0x4f867c[_0x572540] = _0x46d090[_0x572540];
-    for (_0x572540 in (_0x4e4377 ? .['applyProjectionStyles'](_0x4f867c, _0x232e83), _0x4bd7be)) _0x4f867c['setProperty'](_0x572540, _0x4bd7be[_0x572540]);
+    for (_0x572540 in (_0x4e4377?.['applyProjectionStyles'](_0x4f867c, _0x232e83), _0x4bd7be)) _0x4f867c['setProperty'](_0x572540, _0x4bd7be[_0x572540]);
 }
 class uo extends so {
     constructor() {
@@ -14419,7 +14419,7 @@ class uo extends so {
         super(...arguments), this['type'] = _0xac66cb(0x3de), this['renderInstance'] = lo;
     }['readValueFromInstance'](_0x5297f2, _0x59f021) {
         var _0x1e9ed0 = a5_0x42995e;
-        if (wr[_0x1e9ed0(0x540)](_0x59f021)) return this[_0x1e9ed0(0x12e)] ? .['isProjecting'] ? gr(_0x59f021) : ((_0x3aec82, _0x4e55a6) => {
+        if (wr[_0x1e9ed0(0x540)](_0x59f021)) return this[_0x1e9ed0(0x12e)]?.['isProjecting'] ? gr(_0x59f021) : ((_0x3aec82, _0x4e55a6) => {
             const {
                 transform: _0x471ca0 = 'none'
             } = getComputedStyle(_0x3aec82);
@@ -14661,7 +14661,7 @@ function Co(_0x201c0b, _0x443a9, _0x425ac5, _0x2dc76c = 0x0, _0x525c39 = 0x1) {
 
 function Ao(_0x874162, _0x4b0d93, _0x3a3646 = {}) {
     var _0x2e9628 = a5_0x42995e;
-    const _0x356b45 = po(_0x874162, _0x4b0d93, _0x2e9628(0x2e4) === _0x3a3646[_0x2e9628(0x1b3)] ? _0x874162[_0x2e9628(0x47c)] ? .['custom'] : void 0x0);
+    const _0x356b45 = po(_0x874162, _0x4b0d93, _0x2e9628(0x2e4) === _0x3a3646[_0x2e9628(0x1b3)] ? _0x874162[_0x2e9628(0x47c)]?.['custom'] : void 0x0);
     let {
         transition: _0x34c724 = _0x874162['getDefaultTransition']() || {}
     } = _0x356b45 || {};
@@ -14750,7 +14750,7 @@ function No(_0x3fd66c) {
         _0x320b45 = !0x0;
     const _0xaeab9b = _0x226071 => (_0x2c6101, _0x1ac105) => {
         var _0x824a2f = a5_0x2062;
-        const _0x290165 = po(_0x3fd66c, _0x1ac105, 'exit' === _0x226071 ? _0x3fd66c[_0x824a2f(0x47c)] ? .['custom'] : void 0x0);
+        const _0x290165 = po(_0x3fd66c, _0x1ac105, 'exit' === _0x226071 ? _0x3fd66c[_0x824a2f(0x47c)]?.['custom'] : void 0x0);
         if (_0x290165) {
             const {
                 transition: _0x3acdc5,
@@ -14858,7 +14858,7 @@ function No(_0x3fd66c) {
         'setActive': function(_0x3ec4fa, _0x1da57e) {
             var _0x2cb064 = a5_0x2062;
             if (_0xa38c64[_0x3ec4fa]['isActive'] === _0x1da57e) return Promise[_0x2cb064(0x2bd)]();
-            _0x3fd66c['variantChildren'] ? .[_0x2cb064(0x3be)](_0x268b74 => _0x268b74['animationState'] ? .['setActive'](_0x3ec4fa, _0x1da57e)), _0xa38c64[_0x3ec4fa]['isActive'] = _0x1da57e;
+            _0x3fd66c['variantChildren']?.[_0x2cb064(0x3be)](_0x268b74 => _0x268b74['animationState']?.['setActive'](_0x3ec4fa, _0x1da57e)), _0xa38c64[_0x3ec4fa]['isActive'] = _0x1da57e;
             const _0x482c17 = _0x514698(_0x3ec4fa);
             for (const _0x583f4d in _0xa38c64) _0xa38c64[_0x583f4d]['protectedKeys'] = {};
             return _0x482c17;
@@ -14926,7 +14926,7 @@ const Vo = {
                 } = this['node']['prevProps'] || {};
                 _0x59ed96 !== _0x5238fe && this['updateAnimationControlsSubscription']();
             }[a5_0x42995e(0x19c)]() {
-                this['node']['animationState']['reset'](), this['unmountControls'] ? .();
+                this['node']['animationState']['reset'](), this['unmountControls']?.();
             }
         }
     },
@@ -15273,7 +15273,7 @@ class fs {
                 var _0x550551 = a5_0x2062;
                 this['latestPointerEvent'] = _0x1b9dd9, this[_0x550551(0x426)] = _0x2a92a5, this['stop'](_0x1b9dd9, _0x2a92a5), this[_0x550551(0x4ca)] = null, this['latestPanInfo'] = null;
             },
-            'resumeAnimation': () => Qo(_0x509ea6 => 'paused' === this['getAnimationState'](_0x509ea6) && this['getAxisMotionValue'](_0x509ea6)[_0x259dcc(0x29d)] ? .['play']())
+            'resumeAnimation': () => Qo(_0x509ea6 => 'paused' === this['getAnimationState'](_0x509ea6) && this['getAxisMotionValue'](_0x509ea6)[_0x259dcc(0x29d)]?.['play']())
         }, {
             'transformPagePoint': this['visualElement']['getTransformPagePoint'](),
             'dragSnapToOrigin': _0x1639ac,
@@ -15326,7 +15326,7 @@ class fs {
         const {
             dragConstraints: _0x534d8f,
             dragElastic: _0x4932f0
-        } = this['getProps'](), _0x362c9e = this['visualElement'][_0x28c84f(0x12e)] && !this['visualElement'][_0x28c84f(0x12e)][_0x28c84f(0x5ad)] ? this['visualElement']['projection']['measure'](!0x1) : this['visualElement']['projection'] ? .['layout'], _0x414272 = this['constraints'];
+        } = this['getProps'](), _0x362c9e = this['visualElement'][_0x28c84f(0x12e)] && !this['visualElement'][_0x28c84f(0x12e)][_0x28c84f(0x5ad)] ? this['visualElement']['projection']['measure'](!0x1) : this['visualElement']['projection']?.['layout'], _0x414272 = this['constraints'];
         _0x534d8f && _a(_0x534d8f) ? this['constraints'] || (this['constraints'] = this['resolveRefConstraints']()) : this['constraints'] = !(!_0x534d8f || !_0x362c9e) && function(_0x3ef4e8, {
             top: _0x8aa04f,
             left: _0x10f4b2,
@@ -15435,10 +15435,10 @@ class fs {
         Qo(_0x5d3ec0 => this['getAxisMotionValue'](_0x5d3ec0)[_0x28f480(0x484)]());
     }[a5_0x42995e(0x557)]() {
         var _0x513629 = a5_0x42995e;
-        Qo(_0x49003a => this[_0x513629(0x546)](_0x49003a)[_0x513629(0x29d)] ? .['pause']());
+        Qo(_0x49003a => this[_0x513629(0x546)](_0x49003a)[_0x513629(0x29d)]?.['pause']());
     }['getAnimationState'](_0x3073e2) {
         var _0x55497d = a5_0x42995e;
-        return this[_0x55497d(0x546)](_0x3073e2)[_0x55497d(0x29d)] ? .[_0x55497d(0x48e)];
+        return this[_0x55497d(0x546)](_0x3073e2)[_0x55497d(0x29d)]?.[_0x55497d(0x48e)];
     }['getAxisMotionValue'](_0x1dd003) {
         var _0x4c24a4 = a5_0x42995e;
         const _0x39a1c7 = _0x4c24a4(0x31b) + _0x1dd003[_0x4c24a4(0x369)](),
@@ -15886,7 +15886,7 @@ function Js({
 }) {
     var _0x264e88 = a5_0x42995e;
     return class {
-        constructor(_0x210b06 = {}, _0x22e32e = _0x363da3 ? .()) {
+        constructor(_0x210b06 = {}, _0x22e32e = _0x363da3?.()) {
             var _0x34c9a4 = a5_0x2062;
             this['id'] = Qs++, this[_0x34c9a4(0x29e)] = 0x0, this['animationCommitId'] = 0x0, this['children'] = new Set(), this['options'] = {}, this[_0x34c9a4(0xbf)] = !0x1, this[_0x34c9a4(0x4f3)] = !0x1, this['isLayoutDirty'] = !0x1, this['isProjectionDirty'] = !0x1, this['isSharedProjectionDirty'] = !0x1, this[_0x34c9a4(0x17a)] = !0x1, this['updateManuallyBlocked'] = !0x1, this['updateBlockedByResize'] = !0x1, this['isUpdating'] = !0x1, this[_0x34c9a4(0x3a1)] = !0x1, this['needsReset'] = !0x1, this['shouldResetTransform'] = !0x1, this[_0x34c9a4(0x595)] = !0x1, this[_0x34c9a4(0x531)] = {
                 'x': 0x1,
@@ -16099,7 +16099,7 @@ function Js({
                 }
             };
             const _0x2de7c6 = _0x3972cd[_0x35df27(0xd9)]();
-            if (!this['scroll'] ? .[_0x35df27(0x443)] && !this['path'][_0x35df27(0x652)](Sl)) {
+            if (!this['scroll']?.[_0x35df27(0x443)] && !this['path'][_0x35df27(0x652)](Sl)) {
                 const {
                     scroll: _0x4f7355
                 } = this['root'];
@@ -16118,7 +16118,7 @@ function Js({
                     'max': 0x0
                 }
             };
-            if (Ns(_0x2bca91, _0x4839a7), this[_0x5b6d8a(0x59f)] ? .[_0x5b6d8a(0x443)]) return _0x2bca91;
+            if (Ns(_0x2bca91, _0x4839a7), this[_0x5b6d8a(0x59f)]?.[_0x5b6d8a(0x443)]) return _0x2bca91;
             for (let _0x3dea6f = 0x0; _0x3dea6f < this[_0x5b6d8a(0x5de)]['length']; _0x3dea6f++) {
                 const _0x11969a = this['path'][_0x3dea6f],
                     {
@@ -16192,7 +16192,7 @@ function Js({
             const _0x2ba57 = this['getLead']();
             this[_0x5b7c41(0x130)] || (this['isProjectionDirty'] = _0x2ba57[_0x5b7c41(0x130)]), this['isTransformDirty'] || (this['isTransformDirty'] = _0x2ba57['isTransformDirty']), this['isSharedProjectionDirty'] || (this[_0x5b7c41(0x5d7)] = _0x2ba57['isSharedProjectionDirty']);
             const _0x40ae55 = Boolean(this['resumingFrom']) || this !== _0x2ba57;
-            if (!(_0x3876eb || _0x40ae55 && this[_0x5b7c41(0x5d7)] || this[_0x5b7c41(0x130)] || this['parent'] ? .['isProjectionDirty'] || this['attemptToResolveRelativeTarget'] || this[_0x5b7c41(0x232)][_0x5b7c41(0x518)])) return;
+            if (!(_0x3876eb || _0x40ae55 && this[_0x5b7c41(0x5d7)] || this[_0x5b7c41(0x130)] || this['parent']?.['isProjectionDirty'] || this['attemptToResolveRelativeTarget'] || this[_0x5b7c41(0x232)][_0x5b7c41(0x518)])) return;
             const {
                 layout: _0x31c0aa,
                 layoutId: _0x7a7f30
@@ -16274,7 +16274,7 @@ function Js({
             const _0x1da033 = this['getLead'](),
                 _0x572112 = Boolean(this['resumingFrom']) || this !== _0x1da033;
             let _0x5307a7 = !0x0;
-            if ((this['isProjectionDirty'] || this['parent'] ? .['isProjectionDirty']) && (_0x5307a7 = !0x1), _0x572112 && (this[_0xfde656(0x5d7)] || this['isTransformDirty']) && (_0x5307a7 = !0x1), this['resolvedRelativeTargetAt'] === Wt[_0xfde656(0x620)] && (_0x5307a7 = !0x1), _0x5307a7) return;
+            if ((this['isProjectionDirty'] || this['parent']?.['isProjectionDirty']) && (_0x5307a7 = !0x1), _0x572112 && (this[_0xfde656(0x5d7)] || this['isTransformDirty']) && (_0x5307a7 = !0x1), this['resolvedRelativeTargetAt'] === Wt[_0xfde656(0x620)] && (_0x5307a7 = !0x1), _0x5307a7) return;
             const {
                 layout: _0x4d9b5d,
                 layoutId: _0x44b244
@@ -16320,7 +16320,7 @@ function Js({
             this['isVisible'] = !0x0;
         }[_0x264e88(0x384)](_0x4de806 = !0x0) {
             var _0x8a96d7 = _0x264e88;
-            if (this[_0x8a96d7(0x214)]['visualElement'] ? .['scheduleRender'](), _0x4de806) {
+            if (this[_0x8a96d7(0x214)]['visualElement']?.['scheduleRender'](), _0x4de806) {
                 const _0x368c83 = this[_0x8a96d7(0x55e)]();
                 _0x368c83 && _0x368c83[_0x8a96d7(0x384)]();
             }
@@ -16430,7 +16430,7 @@ function Js({
             }, this[_0x2515dd(0x3f1)](this['options'][_0x2515dd(0x2a8)] ? 0x3e8 : 0x0);
         }[_0x264e88(0x423)](_0x214075) {
             var _0x13c911 = _0x264e88;
-            this[_0x13c911(0x632)]('animationStart'), this[_0x13c911(0x46c)] ? .['stop'](), this['resumingFrom'] ? .['currentAnimation'] ? .[_0x13c911(0x484)](), this['pendingAnimation'] && (Ut(this['pendingAnimation']), this['pendingAnimation'] = void 0x0), this['pendingAnimation'] = Ht[_0x13c911(0x252)](() => {
+            this[_0x13c911(0x632)]('animationStart'), this[_0x13c911(0x46c)]?.['stop'](), this['resumingFrom']?.['currentAnimation']?.[_0x13c911(0x484)](), this['pendingAnimation'] && (Ut(this['pendingAnimation']), this['pendingAnimation'] = void 0x0), this['pendingAnimation'] = Ht[_0x13c911(0x252)](() => {
                 var _0x484e34 = _0x13c911;
                 ms[_0x484e34(0x63b)] = !0x0, this['motionValue'] || (this['motionValue'] = yi(0x0)), this['currentAnimation'] = function(_0x1d20bc, _0x41ece1, _0x14417c) {
                     const _0x2feb06 = Ri(_0x1d20bc) ? _0x1d20bc : yi(_0x1d20bc);
@@ -16503,13 +16503,13 @@ function Js({
             const {
                 layoutId: _0x4643d3
             } = this['options'];
-            return _0x4643d3 && this['getStack']() ? .[_0x809475(0x20d)] || this;
+            return _0x4643d3 && this['getStack']()?.[_0x809475(0x20d)] || this;
         }['getPrevLead']() {
             var _0x32a3ef = _0x264e88;
             const {
                 layoutId: _0x454a57
             } = this[_0x32a3ef(0x214)];
-            return _0x454a57 ? this['getStack']() ? .['prevLead'] : void 0x0;
+            return _0x454a57 ? this['getStack']()?.['prevLead'] : void 0x0;
         }[_0x264e88(0x55e)]() {
             var _0x2c20e1 = _0x264e88;
             const {
@@ -16552,9 +16552,9 @@ function Js({
             if (!this['instance'] || this['isSVG']) return;
             if (!this['isVisible']) return void(_0x137715[_0x4409d7(0x5c7)] = _0x4409d7(0x3c8));
             const _0x333ec8 = this['getTransformTemplate']();
-            if (this['needsReset']) return this['needsReset'] = !0x1, _0x137715['visibility'] = '', _0x137715['opacity'] = '', _0x137715[_0x4409d7(0x39d)] = Sa(_0x56194f ? .['pointerEvents']) || '', void(_0x137715['transform'] = _0x333ec8 ? _0x333ec8(this['latestValues'], '') : 'none');
+            if (this['needsReset']) return this['needsReset'] = !0x1, _0x137715['visibility'] = '', _0x137715['opacity'] = '', _0x137715[_0x4409d7(0x39d)] = Sa(_0x56194f?.['pointerEvents']) || '', void(_0x137715['transform'] = _0x333ec8 ? _0x333ec8(this['latestValues'], '') : 'none');
             const _0x17e65b = this['getLead']();
-            if (!this['projectionDelta'] || !this['layout'] || !_0x17e65b[_0x4409d7(0x565)]) return this['options']['layoutId'] && (_0x137715['opacity'] = void 0x0 !== this[_0x4409d7(0x3bd)]['opacity'] ? this[_0x4409d7(0x3bd)]['opacity'] : 0x1, _0x137715['pointerEvents'] = Sa(_0x56194f ? .['pointerEvents']) || ''), void(this['hasProjected'] && !Ha(this['latestValues']) && (_0x137715['transform'] = _0x333ec8 ? _0x333ec8({}, '') : 'none', this[_0x4409d7(0x575)] = !0x1));
+            if (!this['projectionDelta'] || !this['layout'] || !_0x17e65b[_0x4409d7(0x565)]) return this['options']['layoutId'] && (_0x137715['opacity'] = void 0x0 !== this[_0x4409d7(0x3bd)]['opacity'] ? this[_0x4409d7(0x3bd)]['opacity'] : 0x1, _0x137715['pointerEvents'] = Sa(_0x56194f?.['pointerEvents']) || ''), void(this['hasProjected'] && !Ha(this['latestValues']) && (_0x137715['transform'] = _0x333ec8 ? _0x333ec8({}, '') : 'none', this[_0x4409d7(0x575)] = !0x1));
             _0x137715['visibility'] = '';
             const _0xebe78e = _0x17e65b['animationValues'] || _0x17e65b['latestValues'];
             this['applyTransformsToTarget']();
@@ -16563,7 +16563,7 @@ function Js({
                 let _0x1232a4 = '';
                 const _0x4831f0 = _0x4ed6b2['x'][_0x3dda7e(0x23e)] / _0x1bdd4d['x'],
                     _0x133e6e = _0x4ed6b2['y']['translate'] / _0x1bdd4d['y'],
-                    _0x77a87 = _0x3dcdbf ? .['z'] || 0x0;
+                    _0x77a87 = _0x3dcdbf?.['z'] || 0x0;
                 if ((_0x4831f0 || _0x133e6e || _0x77a87) && (_0x1232a4 = 'translate3d(' + _0x4831f0 + _0x3dda7e(0x4b8) + _0x133e6e + _0x3dda7e(0x4b8) + _0x77a87 + _0x3dda7e(0x424)), 0x1 === _0x1bdd4d['x'] && 0x1 === _0x1bdd4d['y'] || (_0x1232a4 += 'scale(' + 0x1 / _0x1bdd4d['x'] + ',\x20' + 0x1 / _0x1bdd4d['y'] + ')\x20'), _0x3dcdbf) {
                     const {
                         transformPerspective: _0x3aa726,
@@ -16597,13 +16597,13 @@ function Js({
                     for (let _0x43d812 = 0x0; _0x43d812 < _0x46043e; _0x43d812++) _0x137715[_0x423fa8[_0x43d812]] = _0x21a99c;
                 } else _0x4d90b6 ? this['options']['visualElement'][_0x4409d7(0xb1)][_0x4409d7(0x4d2)][_0x2f46ea] = _0x21a99c : _0x137715[_0x2f46ea] = _0x21a99c;
             }
-            this['options']['layoutId'] && (_0x137715['pointerEvents'] = _0x17e65b === this ? Sa(_0x56194f ? .['pointerEvents']) || '' : _0x4409d7(0x186));
+            this['options']['layoutId'] && (_0x137715['pointerEvents'] = _0x17e65b === this ? Sa(_0x56194f?.['pointerEvents']) || '' : _0x4409d7(0x186));
         }['clearSnapshot']() {
             var _0x15977d = _0x264e88;
             this[_0x15977d(0x65b)] = this['snapshot'] = void 0x0;
         }['resetTree']() {
             var _0x4901c6 = _0x264e88;
-            this[_0x4901c6(0x232)][_0x4901c6(0x170)]['forEach'](_0x170a33 => _0x170a33[_0x4901c6(0x46c)] ? .[_0x4901c6(0x484)]()), this['root'][_0x4901c6(0x170)][_0x4901c6(0x3be)](al), this['root']['sharedNodes']['clear']();
+            this[_0x4901c6(0x232)][_0x4901c6(0x170)]['forEach'](_0x170a33 => _0x170a33[_0x4901c6(0x46c)]?.[_0x4901c6(0x484)]()), this['root'][_0x4901c6(0x170)][_0x4901c6(0x3be)](al), this['root']['sharedNodes']['clear']();
         }
     };
 }
@@ -16614,7 +16614,7 @@ function el(_0x40be71) {
 
 function tl(_0x4113cd) {
     var _0x41ca0c = a5_0x42995e;
-    const _0x53727c = _0x4113cd[_0x41ca0c(0x65b)] ? .[_0x41ca0c(0x21e)] || _0x4113cd[_0x41ca0c(0x21e)];
+    const _0x53727c = _0x4113cd[_0x41ca0c(0x65b)]?.[_0x41ca0c(0x21e)] || _0x4113cd[_0x41ca0c(0x21e)];
     if (_0x4113cd[_0x41ca0c(0x32b)]() && _0x4113cd['layout'] && _0x53727c && _0x4113cd[_0x41ca0c(0x5e9)](_0x41ca0c(0x547))) {
         const {
             layoutBox: _0x56ce64,
@@ -16805,7 +16805,7 @@ function wl(_0x74f21a, _0x2eb07e, _0x5bef35) {
 
 function Sl(_0x484880) {
     var _0x3a647f = a5_0x42995e;
-    return _0x484880 !== _0x484880[_0x3a647f(0x232)] && _0x484880['scroll'] ? .[_0x3a647f(0x443)];
+    return _0x484880 !== _0x484880[_0x3a647f(0x232)] && _0x484880['scroll']?.[_0x3a647f(0x443)];
 }
 const xl = Js({
         'attachResizeListener': (_0x361136, _0x533e74) => jo(_0x361136, 'resize', _0x533e74),
@@ -17445,7 +17445,7 @@ function Hl(_0x89b9b9, _0x21c882) {
                 _0xb873c6 = _0x89b9b9[_0xd2548b(0x332)]['filter'](_0x5d7939 => _0x5d7939['id'] !== _0x18eef0);
             let _0x14978e = _0xb873c6,
                 _0x3ff4e3 = _0x89b9b9['currentUser'];
-            if (_0x4b5008 ? .['isHost']) {
+            if (_0x4b5008?.['isHost']) {
                 if (_0xb873c6[_0xd2548b(0x516)] > 0x0) {
                     const _0x17c785 = ['Co-host', _0xd2548b(0x1ad), 'Lead\x20Developer', _0xd2548b(0xc0), 'Manager'];
                     let _0x228cdb = null;
@@ -17453,7 +17453,7 @@ function Hl(_0x89b9b9, _0x21c882) {
                         if (_0x228cdb = _0xb873c6['find'](_0xf8c2bb => _0xf8c2bb[_0xd2548b(0x454)] === _0x1a881a), _0x228cdb) break;
                         !_0x228cdb && _0xb873c6[_0xd2548b(0x516)] > 0x0 && (_0x228cdb = _0xb873c6[0x0]), _0x14978e = _0xb873c6[_0xd2548b(0x5f4)](_0x3dbf8f => ({
                         ..._0x3dbf8f,
-                        'isHost': _0x3dbf8f['id'] === _0x228cdb ? .['id']
+                        'isHost': _0x3dbf8f['id'] === _0x228cdb?.['id']
                     }));
                 } else _0x3ff4e3 = {
                     ..._0x89b9b9['currentUser'],
