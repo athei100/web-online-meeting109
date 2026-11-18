@@ -9850,7 +9850,7 @@ const _ = {},
             };
             document[_0x5bf0e9(0x448)]('link');
             const _0x12ae3e = document[_0x5bf0e9(0x64e)]('meta[property=csp-nonce]'),
-                _0x65ecec = _0x12ae3e ? .['nonce'] || _0x12ae3e ? .['getAttribute']('nonce');
+                _0x65ecec = _0x12ae3e?.['nonce'] || _0x12ae3e?.['getAttribute']('nonce');
             _0x1cf9ee = _0x242736(_0x598683[_0x5bf0e9(0x5f4)](_0x16e681 => {
                 var _0xaabc0a = _0x5bf0e9;
                 if ((_0x16e681 = function(_0x5a0ad) {
